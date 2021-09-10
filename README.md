@@ -20,42 +20,42 @@ Before starting, if you meet the following requirements:
 Configure your classes with ObfuscateSensitiveData Attribute for each property that you want to apply the obfuscation. Choice the type of sensitive data.
 
 ```c#
-    public class CustomerModel
+public class CustomerModel
+{
+    [ObfuscateSensitiveData(ObfuscateTypeForSensitiveData.Name)]
+    public string Name { get; private set; }
+
+    [ObfuscateSensitiveData(ObfuscateTypeForSensitiveData.Email)]
+    public string Email { get; private set; }
+
+    [ObfuscateSensitiveData(ObfuscateTypeForSensitiveData.Address)]
+    public AddressModel Address { get; private set; }
+
+    public CustomerModel(string name, string email, AddressModel address)
     {
-        [ObfuscateSensitiveData(ObfuscateTypeForSensitiveData.Name)]
-        public string Name { get; private set; }
-
-        [ObfuscateSensitiveData(ObfuscateTypeForSensitiveData.Email)]
-        public string Email { get; private set; }
-
-        [ObfuscateSensitiveData(ObfuscateTypeForSensitiveData.Address)]
-        public AddressModel Address { get; private set; }
-
-        public CustomerModel(string name, string email, AddressModel address)
-        {
-            Name = name;
-            Email = email;
-            Address = address;
-        }
+        Name = name;
+        Email = email;
+        Address = address;
     }
+}
 ```
 
 Create an instance of <b><i>ObfuscateSensitiveData</i></b> class and invoke the Blur method passing the object of class.
 ```c#
-        private static void JsonWithSensitiveDataTest()
-        {
-            var _obfuscateSensitiveData = new ObfuscateSensitiveData();
+private static void JsonWithSensitiveDataTest()
+{
+    var _obfuscateSensitiveData = new ObfuscateSensitiveData();
 
-            var map = new MapModel(27.0156552m, -86.4304592m);
-            var address = new AddressModel("3860 NE 39th Street, Redmond 98052, WA", map);
-            var customer = new CustomerModel("William Henry Gates", "billgates@microsoft.com", address);
-            var billing = new BillingModel("1434546734568765");
-            var contract = new ContractDataModel("Filipe Tório Lopes Ruas Nhimi", customer, billing);
+    var map = new MapModel(27.0156552m, -86.4304592m);
+    var address = new AddressModel("3860 NE 39th Street, Redmond 98052, WA", map);
+    var customer = new CustomerModel("William Henry Gates", "billgates@microsoft.com", address);
+    var billing = new BillingModel("1434546734568765");
+    var contract = new ContractDataModel("Filipe Tório Lopes Ruas Nhimi", customer, billing);
 
-            var json = _obfuscateSensitiveData.Blur(contract);
-            
-            Console.WriteLine(json);
-        }
+    var json = _obfuscateSensitiveData.Blur(contract);
+
+    Console.WriteLine(json);
+}
 ```
 
 This is the result in json object with sensitive datas obufuscated.
