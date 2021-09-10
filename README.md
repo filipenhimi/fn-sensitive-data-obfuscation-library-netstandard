@@ -98,6 +98,6 @@ Do you want to be part of this project? [HERE](CONTRIBUTING.md) and read how to 
 
 ## 📝 License
 
-This project is under license. See the  [LICENSE](LICENSE.md) file for more detais.
+This project is under license. See the  [LICENSE](LICENSE) file for more detais.
 
 [⬆ Back to top](#nome-do-projeto)<br>
