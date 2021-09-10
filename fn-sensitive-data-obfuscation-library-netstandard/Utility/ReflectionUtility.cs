@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace fn_sensitive_data_obfuscation_library_netstandard.Utility
 {
-    public static class ReflectionUtility
+    internal static class ReflectionUtility
     {
         /// <summary>
         /// Indicates whether or not the specified type is a list.

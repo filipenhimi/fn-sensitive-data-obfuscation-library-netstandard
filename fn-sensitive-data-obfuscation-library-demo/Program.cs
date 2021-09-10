@@ -10,7 +10,7 @@ namespace fn_sensitive_data_obfuscation_library_demo
         private static ObfuscateSensitiveData _obfuscateSensitiveData;
         private const string separator = "----------------------------------------------------------------------------------------------";
 
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine(separator);
             Console.WriteLine("Welcome to FN - Sensitive Data Obfuscation Library");

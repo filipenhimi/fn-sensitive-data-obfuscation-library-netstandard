@@ -9,6 +9,7 @@
     <RepositoryUrl>https://github.com/filipenhimi/fn-sensitive-data-obfuscation-library-netstandard</RepositoryUrl>
     <RepositoryType>Git Hub</RepositoryType>
     <PackageTags>Obfuscation Sensitive Data, Library, JSON, Masking Data, LGPD</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

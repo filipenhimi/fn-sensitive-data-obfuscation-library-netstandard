@@ -1,6 +1,6 @@
 ﻿namespace fn_sensitive_data_obfuscation_library_demo.Models
 {
-    public class MapModel
+    internal class MapModel
     {
         public decimal Latitude { get; private set; }
 

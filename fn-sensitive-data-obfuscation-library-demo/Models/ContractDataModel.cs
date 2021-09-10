@@ -4,7 +4,7 @@ using System;
 
 namespace fn_sensitive_data_obfuscation_library_demo.Models
 {
-    public class ContractDataModel
+    internal class ContractDataModel
     {
         [ObfuscateSensitiveData(ObfuscateTypeForSensitiveData.Name)]
         public string Salesman { get; private set; }

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace fn_obfuscate_sensitive_data_library_test.Models
 {
-    public class CustomerModel
+    internal class CustomerModel
     {
         [ObfuscateSensitiveData(ObfuscateTypeForSensitiveData.Name)]
         public string Name { get; private set; }

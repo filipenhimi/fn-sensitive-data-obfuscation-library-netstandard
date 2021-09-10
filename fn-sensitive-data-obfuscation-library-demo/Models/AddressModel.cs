@@ -3,7 +3,7 @@ using fn_sensitive_data_obfuscation_library_netstandard.Enums;
 
 namespace fn_sensitive_data_obfuscation_library_demo.Models
 {
-    public class AddressModel
+    internal class AddressModel
     {
         [ObfuscateSensitiveData(ObfuscateTypeForSensitiveData.Address)]
         public string CompleteAddress { get; private set; }

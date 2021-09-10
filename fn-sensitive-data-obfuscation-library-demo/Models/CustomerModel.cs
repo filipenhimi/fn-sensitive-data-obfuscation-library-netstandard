@@ -3,7 +3,7 @@ using fn_sensitive_data_obfuscation_library_netstandard.Enums;
 
 namespace fn_sensitive_data_obfuscation_library_demo.Models
 {
-    public class CustomerModel
+    internal class CustomerModel
     {
         [ObfuscateSensitiveData(ObfuscateTypeForSensitiveData.Name)]
         public string Name { get; private set; }
