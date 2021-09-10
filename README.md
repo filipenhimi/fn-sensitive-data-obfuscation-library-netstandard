@@ -94,7 +94,7 @@ dotnet add package fn-sensitive-data-obfuscation-library-netstandard --version 1
 
 ## 😄 Be one of the contributors<br>
 
-Do you want to be part of this project? [HERE](CONTRIBUTING.md) and read how to contribute.
+Do you want to be part of this project? [HERE](CONTRIBUTING) and read how to contribute.
 
 ## 📝 License
 
