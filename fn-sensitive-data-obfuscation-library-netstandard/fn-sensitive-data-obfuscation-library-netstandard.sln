@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fn-sensitive-data-obfuscation-library-netstandard", "fn-sensitive-data-obfuscation-library-netstandard.csproj", "{C8B79056-D2C9-4C8F-B073-1F73808F5713}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fn-sensitive-data-obfuscation-library-demo", "..\fn-sensitive-data-obfuscation-library-demo\fn-sensitive-data-obfuscation-library-demo.csproj", "{959F2825-E1DF-413D-A9C3-F79885233FEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fn-sensitive-data-obfuscation-library-test", "..\fn-sensitive-data-obfuscation-library-test\fn-sensitive-data-obfuscation-library-test.csproj", "{3B578833-0432-4737-B391-3CB17CD05ED4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8B79056-D2C9-4C8F-B073-1F73808F5713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B79056-D2C9-4C8F-B073-1F73808F5713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B79056-D2C9-4C8F-B073-1F73808F5713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B79056-D2C9-4C8F-B073-1F73808F5713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959F2825-E1DF-413D-A9C3-F79885233FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959F2825-E1DF-413D-A9C3-F79885233FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959F2825-E1DF-413D-A9C3-F79885233FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959F2825-E1DF-413D-A9C3-F79885233FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B578833-0432-4737-B391-3CB17CD05ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B578833-0432-4737-B391-3CB17CD05ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B578833-0432-4737-B391-3CB17CD05ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B578833-0432-4737-B391-3CB17CD05ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D94A6A04-230C-4ED0-94CA-D85AADA0FCF0}
+	EndGlobalSection
+EndGlobal

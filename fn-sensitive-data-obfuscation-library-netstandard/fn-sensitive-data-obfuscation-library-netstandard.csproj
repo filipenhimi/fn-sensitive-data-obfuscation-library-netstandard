@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>fn_obfuscate_sensitive_data_library_netstandard</RootNamespace>
+    <Authors>Filipe Nhimi</Authors>
+    <Description>This is a library for obfuscate sensitive datas in .Net Framework and .Net Core applications.</Description>
+    <Copyright></Copyright>
+    <RepositoryUrl>https://github.com/filipenhimi/fn-sensitive-data-obfuscation-library-netstandard</RepositoryUrl>
+    <RepositoryType>Git Hub</RepositoryType>
+    <PackageTags>Obfuscation Sensitive Data, Library, JSON, Masking Data, LGPD</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>

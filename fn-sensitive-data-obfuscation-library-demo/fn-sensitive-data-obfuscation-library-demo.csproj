@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>fn_obfuscate_sensitive_data_library_demo</RootNamespace>
+    <RepositoryUrl></RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageTags></PackageTags>
+    <Description></Description>
+    <Copyright></Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\fn-sensitive-data-obfuscation-library-netstandard\fn-sensitive-data-obfuscation-library-netstandard.csproj" />
+  </ItemGroup>
+
+</Project>
